@@ -1,0 +1,10 @@
+This repository includes the code for:
+	- Face detection and activity detection via OpenCV (under directory c++2image)
+	- Voice activity detection via FVAD (under directory vadf-sql)
+	- Loopback server at localhost connected to a MySQL database
+	
+To run all of the codes at the same time, run "./run_all.sh"
+You can also run other .sh files to run each code independently.
+Note that all of the codes must be run from these scripts (or at least from the same path as them) since the folders are referred relative to each other in the code.
+
+See installation_manual.docx for instructions.
